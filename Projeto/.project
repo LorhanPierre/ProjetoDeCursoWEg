@@ -14,16 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>imagens/logo100px.png</name>
-			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/lorhan_p_melo/Downloads/logo100px.png</locationURI>
-		</link>
-		<link>
-			<name>imagens/logoWeg.png</name>
-			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/lorhan_p_melo/Downloads/ProjetoV.1.1604/ProjetoV.1604/logoWeg.png</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>

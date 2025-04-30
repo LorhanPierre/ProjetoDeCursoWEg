@@ -2,9 +2,13 @@ import javax.swing.*;
 import java.awt.*;
 import javax.swing.border.*;
 import java.awt.event.*;
+import javax.swing.ImageIcon;
 public class Interface extends JFrame{
 	
+	ImageIcon Logo = new ImageIcon(getClass().getResource("logoWeg150px.png"));
+	JLabel Imagem = new JLabel(Logo);
 	public Interface() {
+		
 		
 		JFrame telaFundo = new JFrame();
 		telaFundo.setLayout(null);
@@ -28,7 +32,7 @@ public class Interface extends JFrame{
 		escolhaIdioma.setForeground(Color.WHITE);
 		telaFundo.add(escolhaIdioma);
 		
-		ImageIcon Logo = new ImageIcon("C:/Users/lorhan_p_melo/Downloads/ProjetoV.1.1604/ProjetoV.1604/logoWeg.png");
+		ImageIcon Logo = new ImageIcon(getClass().getResource("C:/Users/lorhan_p_melo/Documents/GitHub/ProjetoDeCursoWEg/Projeto/src/imagens/logo150px.png/"));
 		JLabel imagem = new JLabel(Logo);
 		telaFundo.add(imagem);
 		imagem.setBounds(329,20,Logo.getIconWidth(), Logo.getIconHeight());
@@ -58,11 +62,9 @@ public class Interface extends JFrame{
 				telaInicial.getContentPane().setBackground(padrao);
 				telaInicial.setVisible(true);
 				
-				ImageIcon Logo = new ImageIcon("C:/Users/Public/eclipse-workspace/project.zip_expanded/Projeto/imagens/logo150px.png");
-				JLabel imagem = new JLabel(Logo);
-				telaInicial.add(imagem);
-				imagem.setHorizontalAlignment(SwingConstants.LEFT);
-				imagem.setVerticalAlignment(SwingConstants.TOP);
+				telaInicial.add(Imagem);
+				Imagem.setHorizontalAlignment(SwingConstants.LEFT);
+				Imagem.setVerticalAlignment(SwingConstants.TOP);
 				
 				
 			}
